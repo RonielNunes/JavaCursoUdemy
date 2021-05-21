@@ -34,9 +34,6 @@ public class Program {
 		product.removeProducts(quantity);
 		System.out.println("Update data: " + product.toString());
 		
-		
-		
-
 		sc.close();
 	}
 
