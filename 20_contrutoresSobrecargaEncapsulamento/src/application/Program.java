@@ -11,7 +11,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int accountNumber;
-		String name, option;
+		String name;
+		char option;
 		double value;
 		Account account;
 		
@@ -23,9 +24,9 @@ public class Program {
 		name = sc.nextLine();
 		
 		System.out.print("Is there in the initial deposit (y/n)? ");
-		option = sc.next();
-		
-		if(option.equals("y")) {
+		option = sc.next().charAt(0);
+ 
+		if(option == 'y') {
 			System.out.print("Enter initial deposit value: ");
 			value = sc.nextDouble();
 			account = new Account(accountNumber, name, value);
