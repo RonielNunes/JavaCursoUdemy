@@ -17,7 +17,6 @@ public class Program {
 		System.out.println(orderOne);
 		System.out.println(orderTwo);
 		System.out.println(order);
-		
 	}
 
 }
