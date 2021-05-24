@@ -26,7 +26,7 @@ public class BusinessAccount extends Account{
 			//modificador de aceso protected
 			//Balance é da super classe mas não pode ser acessadpo por ser private
 			//logo para poder acessar ela devemos colocar "protected".
-			balanceWithAcess = 110.0; //Podemos acessar agora
+			//balanceWithAcess = 110.0; //Podemos acessar agora
 		}
 	}
 
