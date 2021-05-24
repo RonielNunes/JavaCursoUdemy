@@ -19,7 +19,7 @@ public final class BusinessAccount extends Account{
 	public void setLoanLimit(Double loanLimit) {
 		this.loanLimit = loanLimit;
 	}
-	//Não permite que o método sejpa sobrescrito 
+	
 	public final void loan(Double amount) {
 		if(amount <= loanLimit) {
 			deposit(amount);
